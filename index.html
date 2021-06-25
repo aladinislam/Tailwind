@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwindcss</title>
+    <link rel="icon" href="img/bussiness-man.png" type="imagr/gif/png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawVisualization);
+
+      function drawVisualization() {
+        // Some raw data (not necessarily accurate)
+        var data = google.visualization.arrayToDataTable([
+          ['Month', 'Bolivia', 'Ecuador', 'Madagascar', 'Papua New Guinea', 'Rwanda', 'Average'],
+          ['2004/05',  165,      938,         522,             998,           450,      614.6],
+          ['2005/06',  135,      1120,        599,             1268,          288,      682],
+          ['2006/07',  157,      1167,        587,             807,           397,      623],
+          ['2007/08',  139,      1110,        615,             968,           215,      609.4],
+          ['2008/09',  136,      691,         629,             1026,          366,      569.6]
+        ]);
+
+        var options = {
+          title : 'Monthly Coffee Production by Country',
+          vAxis: {title: 'Cups'},
+          hAxis: {title: 'Month'},
+          seriesType: 'bars',
+          series: {5: {type: 'line'}}
+        };
+
+        var chart = new google.visualization.ComboChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+
+
+</head>
+
+<body>
+    <nav class=" nav1 flex justify-between">
+        <div class="div1 ">
+            <img src="img/app-store.png" alt="logo" class="img1 animate-spin">
+            <h3 class="win">Tailwind</h3>
+        </div>
+        <div class="div2  ">
+            <input type="search" name="search" placeholder="search" class="search focus:ring-4 placeholder-red-300 placeholder-opacity-75 rounded-lg border-4 border-light-blue-500 border-opacity-80 shadow-2xl ">
+            <button class=" search2 ease-out duration-700 focus:ring-4 ">search</button>
+        </div>
+        <div class="div3">
+            <h6 class="home">Home</h6>
+            <h6 class="about ">About</h6>
+            <h6 class="Contract ">Contract</h6>
+            <h6 class="about ">Sign Up</h6>
+        </div>
+    </nav>
+    <img src="img/shop-now.jpg" alt="shop" class="shop rounded-full animate__animated  animate__pulse animate__infinite animate__faster	500ms ">
+
+   <div class="main0">
+       <div class="box3">
+           <img src="img/clock.png" alt="" class="clock animate__animated animate__swing animate__infinite">
+           <h1 class="men1 animate__animated animate__swing">Men Luxury Watch</h1>
+           <p class="p1 animate__animated animate__swing">The 29 Best Luxury Watches for Men</p>
+   
+           <button class=" search0 animate__animated  animate__pulse animate__infinite  ">Buy New </button>
+       </div>
+
+
+
+       <div class="box4"> 
+
+        <img src="img/red-shoes.png" alt="" class="shoes animate__animated animate__swing animate__infinite">
+        <h1 class="men2">Men Luxury Shoes</h1>
+        <p class="p2">The 29 Best Luxury Shoes for Men</p>
+        <button class=" search01 animate__animated  animate__pulse animate__infinite  ">Buy New </button>
+
+           </div>
+       <div class="box5">
+        <img src="img/circular-sunglasses.png" alt="" class="download animate__animated animate__swing animate__infinite">
+        <h1 class="men3">Men Luxury Sunglass</h1>
+        <p class="p3">The 29 Best Luxury sunglass for Men</p>
+        <button class=" search02 animate__animated  animate__pulse animate__infinite  ">Buy New </button>
+        
+   </div>
+</div>
+
+       <div class="main01">
+        <div class="box6">
+            <img src="img/3.jpg" alt="" class="b1 animate__animated animate__swing animate__infinite">
+            <h1 class="b2 animate__animated animate__swing">Men Luxury Balt</h1>
+            <p class="b3 animate__animated animate__swing">The 29 Best Balt  for Men</p>
+    
+            <button class=" search10 animate__animated  animate__pulse animate__infinite  ">Buy New </button>
+        </div>
+
+
+        <div class="box7">
+            <img src="img/blazer.png" alt="" class="a1 animate__animated animate__swing animate__infinite">
+            <h1 class="a2 animate__animated animate__swing">Men Luxury blazer</h1>
+            <p class="a3 animate__animated animate__swing">The 29 Best blazer Watches for Men</p>
+    
+            <button class=" search11 animate__animated  animate__pulse animate__infinite  ">Buy New </button>
+        </div>
+
+
+        <div class="box8">
+            <img src="img/wallet-men.png" alt="" class="c1 animate__animated animate__swing animate__infinite">
+            <h1 class="c2 animate__animated animate__swing">Men Luxury wallet</h1>
+            <p class="c3 animate__animated animate__swing">The 29 Best wallet Watches for Men</p>
+    
+            <button class=" search12 animate__animated  animate__pulse animate__infinite  ">Buy New </button>
+        </div>
+
+       </div>
+
+       <div class="wowmain">
+        <div class="pic ">
+            <img src="img/unnamed.png" alt="" class="wow">
+           
+        </div>
+         <div class="likebox ">
+             <div class="belmain">
+                <h1 class="h10"> luxury shop</h1>
+                <img src="img/notification.png" alt="" class="bel animate__pulse animate__animated  animate__infinite animate__fast	">
+             </div>
+             
+             <p class="web">Luxury shopping is moving to the web,<br>
+                 but both old and new brands are competing to <br>
+                  attract the online 
+                  luxury consumer.</p>
+                  <h2 class="pay underline">Payments Methods</h2>
+                  <div class="tk">
+                      <img src="img/paypal.png" alt="" class="paypal animate__pulse animate__animated  animate__infinite ">
+                      <img src="img/money.png" alt="" class="animate__pulse animate__animated  animate__infinite	">
+                      <img src="img/card.png" alt="" class="animate__pulse animate__animated 	 animate__infinite">
+                      <img src="img/bitcoin.png" alt="" class="bitcoin animate__pulse animate__animated  animate__infinite ">
+                  </div>
+
+         </div>
+       </div>
+     
+
+
+
+
+<h1 class="shopping2">Shopping Catalogues</h1>
+
+<div class="catalogues">
+<div class="cl1">
+    <img src="img/fashion.png" alt="" class="fashion">
+    <h3 class="h31 font-serif">Men Shopping</h3>
+    <img src="img/chevrons-up.svg" alt="" class="up animate__shakeY animate__animated animate__slow  animate__infinite">
+
+</div>
+<div class="cl2">
+    <img src="img/G03.jpg" alt="" class="child">
+    <h3 class="h32 font-serif">Child Shopping</h3>
+    <img src="img/chevrons-up.svg" alt="" class="up1 animate__shakeY animate__animated animate__slow  animate__infinite">
+</div>
+
+
+<div class="cl3">
+    <img src="img/Shopping-Girl-PNG.png" alt="" class="girl">
+    <h3 class="h33 font-serif">Girls Shopping</h3>
+    <img src="img/chevrons-up.svg" alt="" class="up2 animate__shakeY animate__animated animate__slow  animate__infinite">
+</div>
+</div>
+<h1 class="and font-serif">Sell And Profit Margin</h1>
+<div class="map">
+    <div id="chart_div" style="width: 900px; height: 400px;" ></div>
+</div>
+
+<footer>
+    <div class="footmain">
+        <h1 class="company font-serif">Company Name <span>Suggestions</span> </h1>
+        <p class="pp">Search secure for Us Companies Outsourcing. Search with Visymo.com. 100% Secure. Unlimited Access. <br>
+             Always Facts. Results & Answers. Privacy Friendly. 
+             The Best Resources.<br> Types:  Best Results, Explore Now, New Sources, Best in Search.</p>
+
+
+             <div class="online ">
+               <li class="animate__jello animate__animated  animate__infinite"><img src="img/facebook.png" alt=""></li> 
+                <li class="animate__jello animate__animated  animate__infinite"><img src="img/twitter.png" alt=""></li>
+                <li class="animate__jello animate__animated  animate__infinite"><img src="img/instagram.png" alt=""></li>
+                <li class="animate__jello animate__animated  animate__infinite"><img src="img/skype.png" alt=""></li>
+            </div>
+    </div>
+    
+</footer>
+<p class="p01">Mentored by <span class="span1 font-mono">CourseAble</span> . Coded by <span class="span2 font-mono">Ananta</span> .</p>
+</body>
+</html>
